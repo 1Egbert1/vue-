@@ -40,7 +40,7 @@ export default {
       } else {
         this.isActive = false;
       }
-      this.textList.map((item) => {
+      this.textList.map(function (item) {
         item.liStatus = !item.liStatus;
       });
     },
